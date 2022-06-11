@@ -1,0 +1,18 @@
+name = "BlockNLPModelsPlasmo"
+uuid = "1491da42-d7d6-4405-9b13-bbc4ec68cdae"
+authors = ["Sungho Shin <sshin@anl.gov>"]
+version = "0.1.0"
+
+[deps]
+BlockNLPModels = "26fb23fc-4a37-41a0-8f1d-1a5a3817d965"
+
+[compat]
+BlockNLPModels = "0.1"
+julia = "^1.6.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+MadNLP = "2621e9c9-9eb4-46b1-8089-e8c72242dfb6"
+
+[targets]
+test = ["Test", "MadNLP"]
